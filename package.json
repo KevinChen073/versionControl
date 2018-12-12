@@ -4,7 +4,8 @@
   "description": "deps的分析库（一段bundle、从json中获取deps的list。检测重复。）",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "jsdoc2md ./* -d 3 -m none -g none"
   },
   "repository": {
     "type": "git",
