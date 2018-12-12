@@ -1,0 +1,765 @@
+// fork from https://g.alicdn.com/rax/ike-navbar/1.2.4/deps.json
+
+// 20181212194439
+// https://g.alicdn.com/rax/ike-navbar/1.2.4/deps.json
+
+{
+    "npm/rax/0.6.4/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/ike-env/1.0.1/index.web.cmd": {
+      "requires": [
+        "npm/rax/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-env/1.0.1/index.cmd": {
+      "requires": [
+        "npm/rax/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-env/1.0.1/index.native.cmd": {
+      "requires": [
+        "npm/rax/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-util/2.0.6/index.native.cmd": {
+      "requires": [
+        "npm/rax/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-util/2.0.6/index.cmd": {
+      "requires": [
+        "npm/rax/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-util/2.0.6/index.web.cmd": {
+      "requires": [
+        "npm/rax/0.6.4/index.cmd"
+      ]
+    },
+    "npm/rax/0.6.5/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/rax-image/0.4.20/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/rax-scrollview/0.4.20/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/rax-text/0.6.5/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/rax-view/0.6.5/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/ike-icons/1.1.1/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-image/0.4.20/index.cmd",
+        "npm/rax-scrollview/0.4.20/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-icons/1.1.1/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.native.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-image/0.4.20/index.cmd",
+        "npm/rax-scrollview/0.4.20/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-icons/1.1.1/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.web.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-image/0.4.20/index.cmd",
+        "npm/rax-scrollview/0.4.20/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-performance-stat/0.0.2/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.web.cmd",
+        "npm/@ali/ike-util/2.0.6/index.web.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-performance-stat/0.0.2/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.cmd",
+        "npm/@ali/ike-util/2.0.6/index.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-performance-stat/0.0.2/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.native.cmd",
+        "npm/@ali/ike-util/2.0.6/index.native.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/rax-text/0.4.20/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/rax-touchable/0.4.20/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/rax-view/0.4.20/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/universal-env/0.4.20/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/ike-location/1.0.3/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.web.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-text/0.4.20/index.cmd",
+        "npm/rax-touchable/0.4.20/index.cmd",
+        "npm/rax-view/0.4.20/index.cmd",
+        "npm/universal-env/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-location/1.0.3/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.native.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-text/0.4.20/index.cmd",
+        "npm/rax-touchable/0.4.20/index.cmd",
+        "npm/rax-view/0.4.20/index.cmd",
+        "npm/universal-env/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-location/1.0.3/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-text/0.4.20/index.cmd",
+        "npm/rax-touchable/0.4.20/index.cmd",
+        "npm/rax-view/0.4.20/index.cmd",
+        "npm/universal-env/0.4.20/index.cmd"
+      ]
+    },
+    "npm/rax-text/0.6.4/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/rax-view/0.6.4/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/ike-url/1.0.1/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-location/1.0.3/index.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-text/0.6.4/index.cmd",
+        "npm/rax-view/0.6.4/index.cmd",
+        "npm/universal-env/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-url/1.0.1/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-location/1.0.3/index.native.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-text/0.6.4/index.cmd",
+        "npm/rax-view/0.6.4/index.cmd",
+        "npm/universal-env/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-url/1.0.1/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-location/1.0.3/index.web.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-text/0.6.4/index.cmd",
+        "npm/rax-view/0.6.4/index.cmd",
+        "npm/universal-env/0.4.20/index.cmd"
+      ]
+    },
+    "npm/universal-env/0.6.6/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/universal-iphonex-helper/0.1.2/index.cmd": {
+      "requires": [
+        "npm/universal-env/0.6.6/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-iphonex-helper/0.1.2/index.web.cmd": {
+      "requires": [
+        "npm/universal-env/0.6.6/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-iphonex-helper/0.1.2/index.native.cmd": {
+      "requires": [
+        "npm/universal-env/0.6.6/index.cmd"
+      ]
+    },
+    "npm/universal-env/0.1.7/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/universal-env/1.1.6/index.cmd": {
+      "requires": [
+        "npm/universal-env/0.1.7/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-env/1.1.6/index.native.cmd": {
+      "requires": [
+        "npm/universal-env/0.1.7/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-env/1.1.6/index.web.cmd": {
+      "requires": [
+        "npm/universal-env/0.1.7/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-promise/1.0.2/index.cmd": {
+      "requires": [
+        "npm/@ali/universal-env/1.1.6/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-promise/1.0.2/index.native.cmd": {
+      "requires": [
+        "npm/@ali/universal-env/1.1.6/index.native.cmd"
+      ]
+    },
+    "npm/@ali/universal-promise/1.0.2/index.web.cmd": {
+      "requires": [
+        "npm/@ali/universal-env/1.1.6/index.web.cmd"
+      ]
+    },
+    "npm/@ali/universal-env/1.1.3/index.cmd": {
+      "requires": [
+        "npm/universal-env/0.1.7/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-env/1.1.3/index.native.cmd": {
+      "requires": [
+        "npm/universal-env/0.1.7/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-env/1.1.3/index.web.cmd": {
+      "requires": [
+        "npm/universal-env/0.1.7/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-windvane/1.0.2/index.cmd": {
+      "requires": [
+        "npm/@ali/universal-env/1.1.3/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-windvane/1.0.2/index.native.cmd": {
+      "requires": [
+        "npm/@ali/universal-env/1.1.3/index.native.cmd"
+      ]
+    },
+    "npm/@ali/universal-windvane/1.0.2/index.web.cmd": {
+      "requires": [
+        "npm/@ali/universal-env/1.1.3/index.web.cmd"
+      ]
+    },
+    "npm/rax/0.1.8/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/universal-window/1.0.1/index.cmd": {
+      "requires": [
+        "npm/@ali/universal-windvane/1.0.2/index.cmd",
+        "npm/rax/0.1.8/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-window/1.0.1/index.native.cmd": {
+      "requires": [
+        "npm/@ali/universal-windvane/1.0.2/index.native.cmd",
+        "npm/rax/0.1.8/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-window/1.0.1/index.web.cmd": {
+      "requires": [
+        "npm/@ali/universal-windvane/1.0.2/index.web.cmd",
+        "npm/rax/0.1.8/index.cmd"
+      ]
+    },
+    "npm/universal-jsonp/0.4.20/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/universal-transition/0.4.20/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/ike-adapter/2.7.1/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.cmd",
+        "npm/@ali/ike-icons/1.1.1/index.cmd",
+        "npm/@ali/ike-performance-stat/0.0.2/index.cmd",
+        "npm/@ali/ike-url/1.0.1/index.cmd",
+        "npm/@ali/ike-util/2.0.6/index.cmd",
+        "npm/@ali/universal-iphonex-helper/0.1.2/index.cmd",
+        "npm/@ali/universal-promise/1.0.2/index.cmd",
+        "npm/@ali/universal-window/1.0.1/index.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/universal-jsonp/0.4.20/index.cmd",
+        "npm/universal-transition/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-adapter/2.7.1/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.native.cmd",
+        "npm/@ali/ike-icons/1.1.1/index.native.cmd",
+        "npm/@ali/ike-performance-stat/0.0.2/index.native.cmd",
+        "npm/@ali/ike-url/1.0.1/index.native.cmd",
+        "npm/@ali/ike-util/2.0.6/index.native.cmd",
+        "npm/@ali/universal-iphonex-helper/0.1.2/index.native.cmd",
+        "npm/@ali/universal-promise/1.0.2/index.native.cmd",
+        "npm/@ali/universal-window/1.0.1/index.native.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/universal-jsonp/0.4.20/index.cmd",
+        "npm/universal-transition/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-adapter/2.7.1/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.web.cmd",
+        "npm/@ali/ike-icons/1.1.1/index.web.cmd",
+        "npm/@ali/ike-performance-stat/0.0.2/index.web.cmd",
+        "npm/@ali/ike-url/1.0.1/index.web.cmd",
+        "npm/@ali/ike-util/2.0.6/index.web.cmd",
+        "npm/@ali/universal-iphonex-helper/0.1.2/index.web.cmd",
+        "npm/@ali/universal-promise/1.0.2/index.web.cmd",
+        "npm/@ali/universal-window/1.0.1/index.web.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/universal-jsonp/0.4.20/index.cmd",
+        "npm/universal-transition/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-icons/1.0.4/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-image/0.4.20/index.cmd",
+        "npm/rax-scrollview/0.4.20/index.cmd",
+        "npm/rax-text/0.6.4/index.cmd",
+        "npm/rax-view/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-icons/1.0.4/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.web.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-image/0.4.20/index.cmd",
+        "npm/rax-scrollview/0.4.20/index.cmd",
+        "npm/rax-text/0.6.4/index.cmd",
+        "npm/rax-view/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-icons/1.0.4/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.native.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-image/0.4.20/index.cmd",
+        "npm/rax-scrollview/0.4.20/index.cmd",
+        "npm/rax-text/0.6.4/index.cmd",
+        "npm/rax-view/0.6.4/index.cmd"
+      ]
+    },
+    "npm/universal-env/0.4.11/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/universal-env/1.1.7/index.cmd": {
+      "requires": [
+        "npm/universal-env/0.4.11/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-env/1.1.7/index.native.cmd": {
+      "requires": [
+        "npm/universal-env/0.4.11/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-env/1.1.7/index.web.cmd": {
+      "requires": [
+        "npm/universal-env/0.4.11/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-iphonex-helper/0.0.14/index.web.cmd": {
+      "requires": [
+        "npm/@ali/universal-env/1.1.7/index.web.cmd"
+      ]
+    },
+    "npm/@ali/universal-iphonex-helper/0.0.14/index.native.cmd": {
+      "requires": [
+        "npm/@ali/universal-env/1.1.7/index.native.cmd"
+      ]
+    },
+    "npm/@ali/universal-iphonex-helper/0.0.14/index.cmd": {
+      "requires": [
+        "npm/@ali/universal-env/1.1.7/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-adapter/2.5.1/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.cmd",
+        "npm/@ali/ike-icons/1.0.4/index.cmd",
+        "npm/@ali/ike-url/1.0.1/index.cmd",
+        "npm/@ali/ike-util/2.0.6/index.cmd",
+        "npm/@ali/universal-iphonex-helper/0.0.14/index.cmd",
+        "npm/@ali/universal-promise/1.0.2/index.cmd",
+        "npm/@ali/universal-window/1.0.1/index.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/universal-jsonp/0.4.20/index.cmd",
+        "npm/universal-transition/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-adapter/2.5.1/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.web.cmd",
+        "npm/@ali/ike-icons/1.0.4/index.web.cmd",
+        "npm/@ali/ike-url/1.0.1/index.web.cmd",
+        "npm/@ali/ike-util/2.0.6/index.web.cmd",
+        "npm/@ali/universal-iphonex-helper/0.0.14/index.web.cmd",
+        "npm/@ali/universal-promise/1.0.2/index.web.cmd",
+        "npm/@ali/universal-window/1.0.1/index.web.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/universal-jsonp/0.4.20/index.cmd",
+        "npm/universal-transition/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-adapter/2.5.1/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.native.cmd",
+        "npm/@ali/ike-icons/1.0.4/index.native.cmd",
+        "npm/@ali/ike-url/1.0.1/index.native.cmd",
+        "npm/@ali/ike-util/2.0.6/index.native.cmd",
+        "npm/@ali/universal-iphonex-helper/0.0.14/index.native.cmd",
+        "npm/@ali/universal-promise/1.0.2/index.native.cmd",
+        "npm/@ali/universal-window/1.0.1/index.native.cmd",
+        "npm/rax/0.6.4/index.cmd",
+        "npm/universal-jsonp/0.4.20/index.cmd",
+        "npm/universal-transition/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-touchable/1.0.1/index.native.cmd": {
+      "requires": [
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-view/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-touchable/1.0.1/index.cmd": {
+      "requires": [
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-view/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-touchable/1.0.1/index.web.cmd": {
+      "requires": [
+        "npm/rax/0.6.4/index.cmd",
+        "npm/rax-view/0.6.4/index.cmd"
+      ]
+    },
+    "npm/rax-textinput/0.6.5/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/ike-button/0.0.16/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-adapter/2.5.1/index.cmd",
+        "npm/@ali/ike-touchable/1.0.1/index.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-textinput/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-button/0.0.16/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-adapter/2.5.1/index.native.cmd",
+        "npm/@ali/ike-touchable/1.0.1/index.native.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-textinput/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-button/0.0.16/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-adapter/2.5.1/index.web.cmd",
+        "npm/@ali/ike-touchable/1.0.1/index.web.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-textinput/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-adapter/2.5.2/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.web.cmd",
+        "npm/@ali/ike-icons/1.0.4/index.web.cmd",
+        "npm/@ali/ike-url/1.0.1/index.web.cmd",
+        "npm/@ali/ike-util/2.0.6/index.web.cmd",
+        "npm/@ali/universal-iphonex-helper/0.0.14/index.web.cmd",
+        "npm/@ali/universal-promise/1.0.2/index.web.cmd",
+        "npm/@ali/universal-window/1.0.1/index.web.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/universal-jsonp/0.4.20/index.cmd",
+        "npm/universal-transition/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-adapter/2.5.2/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.cmd",
+        "npm/@ali/ike-icons/1.0.4/index.cmd",
+        "npm/@ali/ike-url/1.0.1/index.cmd",
+        "npm/@ali/ike-util/2.0.6/index.cmd",
+        "npm/@ali/universal-iphonex-helper/0.0.14/index.cmd",
+        "npm/@ali/universal-promise/1.0.2/index.cmd",
+        "npm/@ali/universal-window/1.0.1/index.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/universal-jsonp/0.4.20/index.cmd",
+        "npm/universal-transition/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-adapter/2.5.2/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.native.cmd",
+        "npm/@ali/ike-icons/1.0.4/index.native.cmd",
+        "npm/@ali/ike-url/1.0.1/index.native.cmd",
+        "npm/@ali/ike-util/2.0.6/index.native.cmd",
+        "npm/@ali/universal-iphonex-helper/0.0.14/index.native.cmd",
+        "npm/@ali/universal-promise/1.0.2/index.native.cmd",
+        "npm/@ali/universal-window/1.0.1/index.native.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/universal-jsonp/0.4.20/index.cmd",
+        "npm/universal-transition/0.4.20/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-i18n/0.5.3/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-adapter/2.5.2/index.web.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-i18n/0.5.3/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-adapter/2.5.2/index.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-i18n/0.5.3/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-adapter/2.5.2/index.native.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-icons/1.1.2/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.web.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-image/0.4.20/index.cmd",
+        "npm/rax-scrollview/0.4.20/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-icons/1.1.2/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.native.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-image/0.4.20/index.cmd",
+        "npm/rax-scrollview/0.4.20/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-icons/1.1.2/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-image/0.4.20/index.cmd",
+        "npm/rax-scrollview/0.4.20/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/rax-image/0.6.4/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/ike-image/1.4.0/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-image/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-image/1.4.0/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.web.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-image/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-image/1.4.0/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-env/1.0.1/index.native.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-image/0.6.4/index.cmd"
+      ]
+    },
+    "npm/@ali/universal-emitter/1.0.5/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/universal-emitter/1.0.5/index.native.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/universal-emitter/1.0.5/index.web.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/rax-touchable/0.6.5/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/ike-location/1.1.0/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.web.cmd",
+        "npm/@ali/universal-emitter/1.0.5/index.web.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-touchable/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd",
+        "npm/universal-env/0.6.6/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-location/1.1.0/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.native.cmd",
+        "npm/@ali/universal-emitter/1.0.5/index.native.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-touchable/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd",
+        "npm/universal-env/0.6.6/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-location/1.1.0/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-util/2.0.6/index.cmd",
+        "npm/@ali/universal-emitter/1.0.5/index.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-touchable/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd",
+        "npm/universal-env/0.6.6/index.cmd"
+      ]
+    },
+    "npm/rax-scrollview/0.6.5/index.cmd": {
+      "requires": [
+        
+      ]
+    },
+    "npm/@ali/ike-navbar/1.2.4/index.cmd": {
+      "requires": [
+        "npm/@ali/ike-adapter/2.7.1/index.cmd",
+        "npm/@ali/ike-button/0.0.16/index.cmd",
+        "npm/@ali/ike-i18n/0.5.3/index.cmd",
+        "npm/@ali/ike-icons/1.1.2/index.cmd",
+        "npm/@ali/ike-image/1.4.0/index.cmd",
+        "npm/@ali/ike-location/1.1.0/index.cmd",
+        "npm/@ali/ike-url/1.0.1/index.cmd",
+        "npm/@ali/ike-util/2.0.6/index.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-scrollview/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-touchable/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-navbar/1.2.4/index.web.cmd": {
+      "requires": [
+        "npm/@ali/ike-adapter/2.7.1/index.web.cmd",
+        "npm/@ali/ike-button/0.0.16/index.web.cmd",
+        "npm/@ali/ike-i18n/0.5.3/index.web.cmd",
+        "npm/@ali/ike-icons/1.1.2/index.web.cmd",
+        "npm/@ali/ike-image/1.4.0/index.web.cmd",
+        "npm/@ali/ike-location/1.1.0/index.web.cmd",
+        "npm/@ali/ike-url/1.0.1/index.web.cmd",
+        "npm/@ali/ike-util/2.0.6/index.web.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-scrollview/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-touchable/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    },
+    "npm/@ali/ike-navbar/1.2.4/index.native.cmd": {
+      "requires": [
+        "npm/@ali/ike-adapter/2.7.1/index.native.cmd",
+        "npm/@ali/ike-button/0.0.16/index.native.cmd",
+        "npm/@ali/ike-i18n/0.5.3/index.native.cmd",
+        "npm/@ali/ike-icons/1.1.2/index.native.cmd",
+        "npm/@ali/ike-image/1.4.0/index.native.cmd",
+        "npm/@ali/ike-location/1.1.0/index.native.cmd",
+        "npm/@ali/ike-url/1.0.1/index.native.cmd",
+        "npm/@ali/ike-util/2.0.6/index.native.cmd",
+        "npm/rax/0.6.5/index.cmd",
+        "npm/rax-scrollview/0.6.5/index.cmd",
+        "npm/rax-text/0.6.5/index.cmd",
+        "npm/rax-touchable/0.6.5/index.cmd",
+        "npm/rax-view/0.6.5/index.cmd"
+      ]
+    }
+  }

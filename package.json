@@ -1,0 +1,22 @@
+{
+  "name": "versioncontrol",
+  "version": "1.0.0",
+  "description": "deps的分析库（一段bundle、从json中获取deps的list。检测重复。）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinChen073/versionControl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinChen073/versionControl/issues"
+  },
+  "homepage": "https://github.com/KevinChen073/versionControl#readme",
+  "devDependencies": {
+    "jsdoc-to-markdown": "^4.0.1"
+  }
+}
